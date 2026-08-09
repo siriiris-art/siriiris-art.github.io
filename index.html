@@ -33,6 +33,17 @@
       border-color: #f39c12;
       background-color: #fffdf0;
     }
+    .products {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .products th,
+    .products td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
   </style>
 </head>
 <body>
@@ -51,5 +62,19 @@
     <p>This item has two classes applied to it!</p>
   </div>
 
+  <table class="products">
+    <tr>
+      <th>Product</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Standard Product</td>
+      <td>$10.00</td>
+    </tr>
+    <tr>
+      <td>Special Product</td>
+      <td>$20.00</td>
+    </tr>
+  </table>
 </body>
 </html>
