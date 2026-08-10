@@ -1,12 +1,4 @@
-h1 {
-    color: blue;
-    text-align: center;
-} 
 
-body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
-}
 
 .clickable-box {
     width: 200px;
