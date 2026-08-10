@@ -8,3 +8,26 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.clickable-box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif;
+  }
+  
+  /* Optional: changes color slightly when you hover over it */
+  .clickable-box:hover {
+    background-color: #2980b9;
+  }
+
+  /* Removes the default underline from the link */
+  a {
+    text-decoration: none; 
+  }
