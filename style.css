@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-image : url('tree.jpg');
-    background-repeat: no-repeat;
+    background-image: url('tree.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-  }
+}
 
   /* Target by ID (#) */
   #page-header {
