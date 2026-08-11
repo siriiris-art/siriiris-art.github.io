@@ -81,6 +81,10 @@ body {
       margin: 15px 0;
       border-radius: 8px;
       background-color: #f9f9f9;
+      
+    }
+    .card :hover{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 
     /* Combining Classes */
@@ -95,8 +99,8 @@ body {
     }
     .products th,
     .products td {
-      border: 1px solid #d46e6e;
+      border: 1px solid #38317c;
       padding: 12px;
       text-align: left;
-      color: #a5404088;
+      color: #0000007e;
     }
